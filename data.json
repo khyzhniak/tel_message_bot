@@ -1,0 +1,138 @@
+{
+  "currentWord": "Hei",
+  "words": {
+    "Hei": {
+      "phrases": [
+        {
+          "text": "Hei jeg er ihor",
+          "count": 2
+        },
+        {
+          "text": "Додати фрази списком",
+          "count": 0
+        },
+        {
+          "text": "Hei! Hvordan går det?",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg heter Maria.",
+          "count": 0
+        },
+        {
+          "text": "Hei, skal vi gå en tur?",
+          "count": 0
+        },
+        {
+          "text": "Hei, hyggelig å se deg!",
+          "count": 0
+        },
+        {
+          "text": "Hei, hva gjør du i dag?",
+          "count": 0
+        },
+        {
+          "text": "Hei, kan du hjelpe meg?",
+          "count": 0
+        },
+        {
+          "text": "Hei alle sammen!",
+          "count": 0
+        },
+        {
+          "text": "Hei, lenge siden sist!",
+          "count": 0
+        },
+        {
+          "text": "Hei, hva skjer?",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg savner deg.",
+          "count": 0
+        },
+        {
+          "text": "Hei, hvordan har familien det?",
+          "count": 0
+        },
+        {
+          "text": "Hei, vil du ha kaffe?",
+          "count": 0
+        },
+        {
+          "text": "Hei, har du tid nå?",
+          "count": 1
+        },
+        {
+          "text": "Hei, kan jeg stille et spørsmål?",
+          "count": 0
+        },
+        {
+          "text": "Hei, hvor skal du hen?",
+          "count": 1
+        },
+        {
+          "text": "Hei, hva har du gjort i helgen?",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg liker den jakken din.",
+          "count": 0
+        },
+        {
+          "text": "Hei, er dette setet ledig?",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg er ny her.",
+          "count": 0
+        },
+        {
+          "text": "Hei, hva er klokka?",
+          "count": 0
+        },
+        {
+          "text": "Hei, vi sees senere!",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg trenger litt hjelp.",
+          "count": 1
+        },
+        {
+          "text": "Hei, hvordan var reisen?",
+          "count": 0
+        },
+        {
+          "text": "Hei, gratulerer med dagen!",
+          "count": 0
+        },
+        {
+          "text": "Hei, jeg har en overraskelse til deg.",
+          "count": 0
+        },
+        {
+          "text": "Hei, kan vi snakke litt?",
+          "count": 0
+        },
+        {
+          "text": "Hei, har du sett filmen?",
+          "count": 0
+        },
+        {
+          "text": "Hei, vil du bli med ut?",
+          "count": 0
+        },
+        {
+          "text": "Hei, det var hyggelig å møte deg.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "interval": {
+    "start_hour": 7,
+    "end_hour": 22,
+    "minutes": 20
+  }
+}
