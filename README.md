@@ -26,7 +26,7 @@ tel_message_bot/
 ## Встановлення та запуск
 
 1. Клонування репозиторію:
-
+ііі
 ```bash
 git clone https://github.com/khyzhniak/tel_message_bot.git
 cd tel_message_bot
