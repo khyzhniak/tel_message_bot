@@ -1,0 +1,41 @@
+# Node.js залежності
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Env-файли з секретами
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи та кеш
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+coverage/
+.cache/
+.tmp/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Build/Dist
+dist/
+build/
+
+# PM2
+.pids
+dump.rdb
