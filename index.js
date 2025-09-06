@@ -14,7 +14,7 @@ function showMainMenu(chatId) {
         [{ text:'Додати фрази списком' }, { text:'Видалити слово' }],
         [{ text:'Видалити фразу' }, { text:'Поточне слово' }],
         [{ text:'Список слів' }, { text:'Список фраз' }],
-        [{ text:'Встановити інтервал' }],
+        [{ text:'Встановити інтервал' }, { text:'Вибрати активне слово' }],
         [{ text:'Головне меню' }]
       ],
       resize_keyboard:true,
@@ -115,6 +115,16 @@ bot.on('message', (msg) => {
         delete userStates[chatId];
         showMainMenu(chatId);
         break;
+
+      case 'setCurrentWord':
+        if (wordService.setCurrentWord(text)) {
+          bot.sendMessage(chatId, `✅ Поточне слово встановлено: "${text}"`);
+          delete userStates[chatId];
+          showMainMenu(chatId);
+        } else {
+          bot.sendMessage(chatId, `⚠ Слово "${text}" не знайдено. Спробуйте ще раз.`);
+        }
+        break;
     }
     return;
   }
@@ -157,12 +167,15 @@ bot.on('message', (msg) => {
       userStates[chatId] = { action:'setInterval' };
       bot.sendMessage(chatId,'Введіть інтервал у хвилинах:');
       break;
+    case 'Вибрати активне слово':
+      userStates[chatId] = { action:'setCurrentWord' };
+      bot.sendMessage(chatId,'Введіть слово зі списку слів, яке зробити активним:');
+      break;
     default:
       bot.sendMessage(chatId,'⚠ Натисніть кнопку з меню або "Головне меню" для повернення.');
   }
 });
 
-// Scheduler з урахуванням хвилинного інтервалу
 let lastSentTime = 0;
 setInterval(()=>{
   const now = new Date();
